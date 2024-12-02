@@ -1,0 +1,98 @@
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.A{
+    background-image: url(https://img.freepik.com/free-photo/portrait-young-sportive-girl-training-with-dumbbells-isolated-blue-background-neon_155003-45614.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: white;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: contain;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#B{
+    text-align: right;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px white;
+}
+#C{
+    text-align: center;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px white;
+
+}
+#D{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px white;
+}
+.h2{
+    text-align: center;
+    background-color: lightsalmon;
+    color: white;
+    text-transform: capitalize;
+}
+
+#head{
+    background-color: lightsalmon;
+    text-align: center; 
+    color: white;
+    font-size: 30px;
+}
+.parent {
+    position: relative;  
+    width: 1520px;
+    height: 1200px;
+    background-image: linear-gradient(to right bottom,green, #77E4C8,#E4B1F0,yellow);
+}
+
+.child {
+    position: absolute;  
+    top: 18%;
+    left: 50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child2{
+    position: absolute; 
+    top:48%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child3{
+    position: absolute;
+    top:78%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.id{
+    color:darkblue;
+    padding-top: 10px;
+}
